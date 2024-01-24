@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap');
+*{
+    font-family: 'Rubik', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.banner_section {
+    width: 100%;
+    padding: 175px 0px 144px;
+    overflow: hidden;
+    position: relative;
+}
+.banner-gradient {
+    background: linear-gradient(180deg, #F9FDFF -3.96%, rgba(241, 248, 255, 0.00) 54.81%);
+}
+.navbar{
+    border-radius: 35px;
+    background: #FFF;
+    box-shadow: 0px 11px 23px 0px rgba(139, 188, 233, 0.11);
+    width: 1170px;  
+    height: 70px;
+    position: fixed;
+    max-width: calc(1200px - 30px);
+    width: 100%;
+    top: 25px;
+    padding: 0 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    z-index: 1111111;
+    transition: all .3s ease-in;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.nav-btn{
+    background: #2563EB;
+    padding: 7px 21px;
+    border-radius: 35px;
+    color: #FFF;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration: none;
+}
+.nav-btn::before{
+    content: url('/Projects/few_choose_page/images/user.svg');
+    margin-right: 6px; /* Adjust the spacing between the icon and text */
+    vertical-align: middle; /* Vertically align the icon and text in the middle */
+    display: inline-block;
+    
+}
+.banner_section h1{
+    color: #2C2C2C;
+    font-family: Rubik;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: center;
+}
+.tools_box{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 62px auto 38px;
+}
+.tools_box svg{
+    border-radius: 2px;
+    background: #F1F8FF;
+    padding: 8px;
+    display: block;
+    margin-bottom: 24px;
+}
+.tools_box li{
+    border-radius: 4.483px;
+    border: 1px solid #E7F3FF;
+    background: #FFF;
+    box-shadow: 0.74713px 0.74713px 8.21839px 0px rgba(224, 224, 224, 0.25);
+    width: 280px;
+    height: 282px;
+    text-align: left;
+    padding: 64px 20px 59px;
+    z-index: 1;
+}
+.tools_box li:hover{
+    transform: scale(1.07);
+    transition: all .2s ease-in;
+}
+.tools_box_a{
+    color: #2C2C2C;
+    font-family: Rubik;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration: none;
+}
+.tools_box_p{
+    color: #626262;
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 148%;
+    margin-top: 12px;
+}
+.how_ai_works_link{
+    color: #2C2C2C;
+    font-family: Rubik;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration-line: underline;
+    margin-left: 810px;
+    display: block;
+    max-width: max-content;
+    margin: auto;
+}
+.how_ai_works_link:hover{
+    color:#2563EB;
+}
+.banner-img{
+    position: absolute;
+    bottom: 0%;
+    left: 73%;
+    z-index: 0;
+}
+
+@media (max-width: 1199px) {
+    .tools_box{
+        justify-content: center;
+        gap: 16px;
+    }
+}
+@media (max-width: 768px) {
+    .tools_box{
+        justify-content: center;
+        gap: 16px;
+    }
+}

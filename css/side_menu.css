@@ -1,0 +1,33 @@
+.nav-menu{
+    background: #F9FCFF;
+    max-width: 290px;
+    width: 100%;
+    min-height: 100vh;
+}
+.toolswraper{
+    display: flex;
+    align-items: center;
+    column-gap: 12px;
+    padding: 17px 24px;
+    flex-wrap: wrap;
+}
+.toolswraper:hover{
+background: rgba(235, 244, 255, 0.54);
+}
+.toolswraper a{
+    color: #A3A3AB;
+    font-family: Rubik;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.toolswraper a:hover{
+    color: #2563eb;
+}
+.toolswraper:hover svg path {
+    fill: #212121;
+}
+.toolswraper.active svg path {
+    fill: #2563EB;
+}
